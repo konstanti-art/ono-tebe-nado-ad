@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Шапка */
 =======
 /* место для вашего кода */
@@ -17,10 +18,13 @@ main {
 >>>>>>> parent of e9f6e55 (buf fixinf)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 .header {
   display: grid;
   grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   padding: 92px 50px;
@@ -36,11 +40,17 @@ main {
   padding: 92px 50px;
   color: #000;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  height: 293px;
+  padding: 92px 50px;
+  color: #000;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .header__links-list {
   display: flex;
   gap: 32px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -59,11 +69,21 @@ main {
   list-style: circle;
 }
 
+=======
+}
+
+.header__links-list-item {
+  font-size: 18px;
+  list-style: circle;
+}
+
+>>>>>>> parent of 0b8e133 (bug fixing)
 .header__links-list-item_no-bullit {
   list-style: none;
 }
 
 .header__link {
+<<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 18px;
 <<<<<<< HEAD
@@ -104,6 +124,16 @@ main {
 >>>>>>> parent of 0b8e133 (bug fixing)
 }
 
+=======
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+>>>>>>> parent of 0b8e133 (bug fixing)
 .header__logo {
   width: 148px;
 }
@@ -113,15 +143,19 @@ main {
   font-size: 18px;
   font-style: normal;
   line-height: 1.35;
+<<<<<<< HEAD
 }
 
 .address {
   font-style: inherit;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .header__address {
   justify-self: end;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   max-width: 240px;
@@ -138,11 +172,21 @@ main {
   text-decoration: none;
 }
 
+=======
+}
+
+.address a {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+>>>>>>> parent of 0b8e133 (bug fixing)
 .cover {
   position: relative;
   padding: 165px 50px 50px;
   color: #fff;
   background-image: url(../images/cover.jpg);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   font-style: inherit;
@@ -169,6 +213,8 @@ main {
   background-size: cover;
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
   background-position: center;
   background-size: cover;
 }
@@ -177,6 +223,7 @@ main {
   position: absolute;
 <<<<<<< HEAD
   inset: 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
@@ -192,10 +239,14 @@ main {
 =======
   background-color: rgb(0 0 0 / 0.6);
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  background-color: rgb(0 0 0 / 0.6);
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .cover__title {
   position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   z-index: 2;
@@ -225,11 +276,20 @@ main {
   line-height: 1.15;
   letter-spacing: 0.3em;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  z-index: 1;
+  margin-bottom: 106px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 0.3em;
+>>>>>>> parent of 0b8e133 (bug fixing)
   text-transform: uppercase;
 }
 
 .aligned-text {
   display: block;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   letter-spacing: 0.3em;
@@ -243,10 +303,18 @@ main {
 
 .aligned-text_center {
   line-height: 1;
+=======
+  margin-top: 20px;
+  margin-right: -0.3em; /*убирает последний пробел, чтобы слово корректно выравнивалось*/
+}
+
+.aligned-text_center {
+>>>>>>> parent of 0b8e133 (bug fixing)
   text-align: center;
 }
 
 .aligned-text_right {
+<<<<<<< HEAD
 <<<<<<< HEAD
   line-height: 1;
 <<<<<<< HEAD
@@ -268,6 +336,9 @@ main {
 =======
   text-align: right;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  text-align: right;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .cover__description {
@@ -276,7 +347,10 @@ main {
   display: flex;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   align-items: center;
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
   justify-content: space-between;
@@ -284,6 +358,7 @@ main {
 }
 
 .cover__description-text {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   justify-content: flex-end;
@@ -302,12 +377,15 @@ main {
   word-spacing: 18.5px;
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
 }
 
 .bet-button {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background: transparent;
@@ -365,10 +443,28 @@ main {
 }
 
 .lots__heading {
+=======
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.lots {
+  padding: 180px 24px 0;
+}
+
+.lots__heading {
+>>>>>>> parent of 0b8e133 (bug fixing)
   margin-bottom: 27px;
   padding-left: 40px;
   color: #000;
   font-weight: bold;
+<<<<<<< HEAD
+>>>>>>> parent of 0b8e133 (bug fixing)
+=======
 >>>>>>> parent of 0b8e133 (bug fixing)
   font-size: 40px;
   line-height: 1;
@@ -417,6 +513,7 @@ main {
   justify-content: space-between;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   flex-grow: 1;
   padding: 50px 40px;
   color: #fff;
@@ -434,10 +531,19 @@ main {
   background-position: center;
   background-size: cover;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  height: 100%;
+  padding: 48px 40px;
+  color: #fff;
+  line-height: 1.2;
+  background-position: center;
+  background-size: cover;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-size: cover;
@@ -446,6 +552,8 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
 }
@@ -454,12 +562,15 @@ main {
   background-image: url(../images/card-lot-02.jpg);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-size: cover;
   background-position: center;
 =======
   background-repeat: no-repeat;
   background-size: cover;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
 }
@@ -468,6 +579,7 @@ main {
   background-image: url(../images/card-lot-03.jpg);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-size: cover;
   background-position: center;
 =======
@@ -476,10 +588,13 @@ main {
 >>>>>>> parent of e9f6e55 (buf fixinf)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .card__title {
   position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   z-index: 2;
@@ -498,12 +613,20 @@ main {
   line-height: 1.2;
   text-decoration-line: underline;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+  z-index: 1;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+>>>>>>> parent of 0b8e133 (bug fixing)
   text-transform: uppercase;
 }
 
 
 .card__text {
   position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   z-index: 2;
@@ -514,10 +637,14 @@ main {
 =======
   z-index: 1;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  z-index: 1;
+>>>>>>> parent of 0b8e133 (bug fixing)
   font-size: 20px;
 }
 
 .lots__look-more-link {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   margin-left: 40px;
@@ -537,10 +664,17 @@ main {
   padding-left: 40px;
   font-size: 20px;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  display: block;
+  margin-top: 30px;
+  padding-left: 40px;
+  font-size: 20px;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .about {
   display: grid;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   grid-template-columns: 350px 1fr;
@@ -566,10 +700,15 @@ main {
   grid-column: 2/4;
 >>>>>>> parent of e9f6e55 (buf fixinf)
 =======
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
   grid-template-columns: 334px 1fr;
   gap: 25px;
   padding: 155px 24px 180px;
   color: #000;
+<<<<<<< HEAD
+>>>>>>> parent of 0b8e133 (bug fixing)
+=======
 >>>>>>> parent of 0b8e133 (bug fixing)
 }
 
@@ -581,9 +720,13 @@ main {
   height: 240px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 0 auto;
 =======
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+  margin: auto;
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
   margin: auto;
 >>>>>>> parent of 0b8e133 (bug fixing)
@@ -591,11 +734,8 @@ main {
   background-color: #000000;
 }
 
-.about__logo-image {
-  width: 148px;
-}
-
 .about__title {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   margin: 105px 0 100px 0;
@@ -603,6 +743,9 @@ main {
   padding: 100px 0 104px;
   font-weight: bold;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+  margin: 100px 0;
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
   margin: 100px 0;
 >>>>>>> parent of 0b8e133 (bug fixing)
@@ -614,6 +757,7 @@ main {
 .about__text {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
 <<<<<<< HEAD
   gap: 25px;
 <<<<<<< HEAD
@@ -663,6 +807,19 @@ main {
   color: #000;
   font-size: 18px;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  gap: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 82px;
+  color: #000;
+  font-size: 18px;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .footer__menu-list {
@@ -672,6 +829,7 @@ main {
 
 .footer__menu-link {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 18px;
 <<<<<<< HEAD
   text-underline-offset: 4px;
@@ -679,6 +837,10 @@ main {
   line-height: normal;
   text-underline-position: under;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+  border-bottom: 1px solid;
+  text-decoration: none;
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
   border-bottom: 1px solid;
   text-decoration: none;
@@ -699,12 +861,16 @@ main {
 .footer__social-link {
   display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .footer__social-icon {
   width: 48px;
 =======
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+  text-decoration: none;
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
   text-decoration: none;
 >>>>>>> parent of 0b8e133 (bug fixing)
