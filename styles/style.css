@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Шапка */
 =======
 /* место для вашего кода */
@@ -21,10 +22,13 @@ main {
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 .header {
   display: grid;
   grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,11 +50,17 @@ main {
   padding: 92px 50px;
   color: #000;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  height: 293px;
+  padding: 92px 50px;
+  color: #000;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .header__links-list {
   display: flex;
   gap: 32px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66,10 +76,16 @@ main {
 }
 
 .header__links-list-item {
+=======
+}
+
+.header__links-list-item {
+>>>>>>> parent of 0b8e133 (bug fixing)
   font-size: 18px;
   list-style: circle;
 }
 
+<<<<<<< HEAD
 =======
 }
 
@@ -79,11 +95,14 @@ main {
 }
 
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 .header__links-list-item_no-bullit {
   list-style: none;
 }
 
 .header__link {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   font-size: 18px;
@@ -135,6 +154,16 @@ main {
 }
 
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+>>>>>>> parent of 0b8e133 (bug fixing)
 .header__logo {
   width: 148px;
 }
@@ -145,6 +174,7 @@ main {
   font-style: normal;
   line-height: 1.35;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .address {
@@ -152,10 +182,13 @@ main {
 >>>>>>> parent of e9f6e55 (buf fixinf)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .header__address {
   justify-self: end;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +199,8 @@ main {
   padding-right: 35px;
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .address a {
@@ -173,6 +208,7 @@ main {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 =======
 }
 
@@ -182,11 +218,14 @@ main {
 }
 
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 .cover {
   position: relative;
   padding: 165px 50px 50px;
   color: #fff;
   background-image: url(../images/cover.jpg);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -216,6 +255,8 @@ main {
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
   background-position: center;
   background-size: cover;
 }
@@ -224,6 +265,7 @@ main {
   position: absolute;
 <<<<<<< HEAD
   inset: 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.6);
@@ -243,10 +285,14 @@ main {
 =======
   background-color: rgb(0 0 0 / 0.6);
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  background-color: rgb(0 0 0 / 0.6);
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .cover__title {
   position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,11 +331,20 @@ main {
   line-height: 1.15;
   letter-spacing: 0.3em;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  z-index: 1;
+  margin-bottom: 106px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 0.3em;
+>>>>>>> parent of 0b8e133 (bug fixing)
   text-transform: uppercase;
 }
 
 .aligned-text {
   display: block;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311,10 +366,18 @@ main {
 
 .aligned-text_center {
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  margin-top: 20px;
+  margin-right: -0.3em; /*убирает последний пробел, чтобы слово корректно выравнивалось*/
+}
+
+.aligned-text_center {
+>>>>>>> parent of 0b8e133 (bug fixing)
   text-align: center;
 }
 
 .aligned-text_right {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   line-height: 1;
@@ -340,6 +403,9 @@ main {
 =======
   text-align: right;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  text-align: right;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .cover__description {
@@ -349,7 +415,10 @@ main {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   align-items: center;
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
@@ -359,6 +428,7 @@ main {
 }
 
 .cover__description-text {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -380,12 +450,15 @@ main {
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
 }
 
 .bet-button {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -459,11 +532,29 @@ main {
 
 .lots__heading {
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.lots {
+  padding: 180px 24px 0;
+}
+
+.lots__heading {
+>>>>>>> parent of 0b8e133 (bug fixing)
   margin-bottom: 27px;
   padding-left: 40px;
   color: #000;
   font-weight: bold;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0b8e133 (bug fixing)
+=======
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
@@ -515,6 +606,7 @@ main {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   flex-grow: 1;
   padding: 50px 40px;
   color: #fff;
@@ -540,10 +632,19 @@ main {
   background-position: center;
   background-size: cover;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  height: 100%;
+  padding: 48px 40px;
+  color: #fff;
+  line-height: 1.2;
+  background-position: center;
+  background-size: cover;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,6 +654,8 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
@@ -564,12 +667,15 @@ main {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-size: cover;
   background-position: center;
 =======
   background-repeat: no-repeat;
   background-size: cover;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
@@ -581,6 +687,7 @@ main {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-size: cover;
   background-position: center;
 =======
@@ -591,10 +698,13 @@ main {
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .card__title {
   position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +729,12 @@ main {
   display: inline-block;
   font-weight: bold;
   font-size: 22px;
+=======
+  z-index: 1;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+>>>>>>> parent of 0b8e133 (bug fixing)
   text-decoration: underline;
 >>>>>>> parent of 0b8e133 (bug fixing)
   text-transform: uppercase;
@@ -627,6 +743,7 @@ main {
 
 .card__text {
   position: relative;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -641,10 +758,14 @@ main {
 =======
   z-index: 1;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  z-index: 1;
+>>>>>>> parent of 0b8e133 (bug fixing)
   font-size: 20px;
 }
 
 .lots__look-more-link {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,10 +792,17 @@ main {
   padding-left: 40px;
   font-size: 20px;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  display: block;
+  margin-top: 30px;
+  padding-left: 40px;
+  font-size: 20px;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .about {
   display: grid;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -703,11 +831,16 @@ main {
 =======
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+>>>>>>> parent of 0b8e133 (bug fixing)
   grid-template-columns: 334px 1fr;
   gap: 25px;
   padding: 155px 24px 180px;
   color: #000;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0b8e133 (bug fixing)
+=======
 >>>>>>> parent of 0b8e133 (bug fixing)
 =======
 >>>>>>> parent of 0b8e133 (bug fixing)
@@ -719,6 +852,7 @@ main {
   align-items: center;
   width: 240px;
   height: 240px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,6 +884,15 @@ main {
 =======
   margin: 100px 0;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  margin: auto;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.about__title {
+  margin: 100px 0;
+>>>>>>> parent of 0b8e133 (bug fixing)
   font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
@@ -758,6 +901,7 @@ main {
 .about__text {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   gap: 25px;
@@ -821,6 +965,19 @@ main {
   color: #000;
   font-size: 18px;
 >>>>>>> parent of 0b8e133 (bug fixing)
+=======
+  gap: 24px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 82px;
+  color: #000;
+  font-size: 18px;
+>>>>>>> parent of 0b8e133 (bug fixing)
 }
 
 .footer__menu-list {
@@ -831,6 +988,7 @@ main {
 .footer__menu-link {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 18px;
 <<<<<<< HEAD
   text-underline-offset: 4px;
@@ -838,6 +996,10 @@ main {
   line-height: normal;
   text-underline-position: under;
 >>>>>>> parent of e9f6e55 (buf fixinf)
+=======
+  border-bottom: 1px solid;
+  text-decoration: none;
+>>>>>>> parent of 0b8e133 (bug fixing)
 =======
   border-bottom: 1px solid;
   text-decoration: none;
@@ -863,6 +1025,7 @@ main {
   display: block;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .footer__social-icon {
@@ -878,3 +1041,7 @@ main {
 }
 =======
 >>>>>>> parent of f892ca6 (update project ono tebe nado: all)
+=======
+  text-decoration: none;
+}
+>>>>>>> parent of 0b8e133 (bug fixing)
