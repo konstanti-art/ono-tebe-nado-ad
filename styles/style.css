@@ -1,1 +1,96 @@
 /* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  height: 293px;
+  padding: 0px 50px;
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 22px ;
+  align-items: center;
+  list-style: circle;
+  font-size: 18px;
+}
+
+.header__menu-item_no-bullet {
+  list-style: none;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  margin-left: auto;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* main */
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  height: 757px;
+  width: 100%;
+  background-size: cover;
+}
+
+.cover__title {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 30px;
+  padding: 165px 50px 106px;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  height: 51px;
+  width: 1000px;
+  color: #fff;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.cover-button {
+  margin-left: auto;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  width: 256px;
+  height: 51px;
+}

@@ -5,26 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/global.css">
   </head>
   <body>
-    <header>
-      <nav class="header-menu">
-        <ul>
-          <li class="header-link"><a href="#cover">главная</a></li>
-          <li class="header-link"><a href="#lots">посмотреть лоты</a></li>
-          <li class="header-link"><a href="#about">об аукционе</a></li>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item header__menu-item_active header__menu-item_no-bullet">
+            <a class="header__menu-link" href="#cover">главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#lots">посмотреть лоты</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#about">об аукционе</a>
+          </li>
         </ul>
       </nav>
+      <a
+        class="header__logo"
+        href="#cover"
+      >
+        <img
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип аукциона Оно тебе надо"
+        />
+      </a>
+      <address class="header__address">
+        <a href="tel:+99995555555">+9 999 555 55 55</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-<br/> 265, Амстердам</p>
+        
+      </address>
     </header>
-    <main>
+    <main class="content">
       <section class="cover">
-        <h1>
-          <span>Оно</span>
-          <span>тебе</span>
-          <span>надо</span>
+        <h1 class="cover__title">
+          <span class="accent-span">Оно</span>
+          <span class="accent-span text-center">тебе</span>
+          <span class="accent-span text-right">надо</span>
         </h1>
-        <div class="description"><p>Аукцион вещей, в которые никто не верил</p></div>
-        <button class="cover-button" type="button">Сделать ставку</button>
+        <div class="description"><p>Аукцион вещей, в которые никто не верил</p>
+          <button class="cover-button" type="button">Сделать ставку</button>
+        </div>
       </section>
       <section class="lots">
         <h2>Лоты</h2>
@@ -54,7 +80,7 @@
 
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p>© 2023 Оно тебе надо</p>
     </footer>
   </body>
