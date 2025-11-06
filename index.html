@@ -42,7 +42,7 @@
       </address>
     </header>
     <main class="content" id="cover">
-      <section class="cover">
+      <section class="cover overlay">
         <h1 class="cover__title">
           <span class="accent-span">Оно</span>
           <span class="accent-span text-center">тебе</span>
@@ -56,19 +56,19 @@
         <h2 class="subtitle lots__subtitle">Лоты</h2>
         <ul class="lots__cards">
           <li class="header__menu-item_no-bullet">
-            <article class="lots__card-item lots__card-film">
+            <article class="lots__card-item lots__card-film overlay">
               <a class="link-white lots__card-head" href="#">Фильм режиссёра, который бросил киношколу</a>
               <p class="lots__card-information">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
           </li>
           <li class="header__menu-item_no-bullet">
-            <article class="lots__card-item lots__card-book">
+            <article class="lots__card-item lots__card-book overlay">
               <a class="link-white lots__card-head" href="#">Книга, где описан один скучный день из жизни рекламного агента</a>
               <p class="lots__card-information">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </article>
           </li>
           <li class="header__menu-item_no-bullet">
-            <article class="lots__card-item lots__card-picture">
+            <article class="lots__card-item lots__card-picture overlay">
               <a class="link-white lots__card-head " href="#">Картина, которую повторит даже 5-летний сын маминой подруги</a>
               <p class="lots__card-information">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
             </article>
@@ -106,15 +106,13 @@
         <p>наб. Принсенграхт 263-265,<br/>Амстердам</p>
       </address>
       <menu class="footer__menu">
-        <nav class="footer__menu-nav">
           <ul class="footer__menu-list">
             <li class="header__menu-item header__menu-item_no-bullet footer__menu-item_active"><a class="link footer__menu-link footer__menu-item_active" href="#cover">главная</a></li>
             <li class="header__menu-item header__menu-item_no-bullet"><a class="link footer__menu-link" href="#lots">посмотреть лоты</a></li>
             <li class="header__menu-item header__menu-item_no-bullet"><a class="link footer__menu-link" href="#about">об аукционе</a></li>
-      </ul>
-      </nav>
+          </ul>
       </menu>
-      <menu class="social-footer">
+      <div class="social-footer">
         <a
           class="logo social-footer__logo"
           href="#0"
@@ -145,8 +143,7 @@
             alt="Логотип Pinterest"
           />
         </a>
-      </menu>
-      </footer>
+      </div>
     </footer>
   </body>
 </html>

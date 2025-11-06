@@ -1,14 +1,4 @@
-/* место для вашего кода 
-.link {
-  text-decoration: none;
-  border-bottom: 1px solid black;
-}
-
-.link-white {
-  text-decoration: none;
-  border-bottom: 1px solid white;
-}
-*/
+/* место для вашего кода */
 /* header */
 .header {
   display: grid;
@@ -53,7 +43,7 @@
 /* main */
 /* cover */
 .cover {
-  position: static;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-image: url(../images/cover.jpg);
@@ -62,6 +52,20 @@
   width: 100%;
   background-size: cover;
   background-position: center;
+  z-index: -2;
+}
+
+.overlay::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 
 .cover__title {
@@ -98,7 +102,7 @@
 }
 
 .description-text {
-  text-transform: uppercase;  
+  text-transform: uppercase;
   color: #fff;
   font-size: 22px;
   word-spacing: 19px;
@@ -115,7 +119,7 @@
   text-decoration: none;
   width: 256px;
   height: 51px;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 /* lots */
 .lots {
@@ -129,6 +133,7 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-left: 40px;
+  padding-bottom: 27px;
 }
 
 .lots__card-item {
@@ -148,24 +153,30 @@
 }
 
 .lots__card-film {
+  position: relative;
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -2;
 }
 
 .lots__card-book {
+  position: relative;
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -2;
 }
 
 .lots__card-picture {
+  position: relative;
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: -2;
 }
 
 .lots__card-head {
@@ -264,11 +275,6 @@
 .social-footer__logo {
   display: inline-block;
   margin-right: 10px;
-}
-
-.footer__logo-image {
-  max-width: 100%;
-  height: auto;
 }
 
 .social-footer__logo {
