@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
+  height: 289px;
   padding: 0px 50px;
 }
 
@@ -43,6 +43,7 @@
 /* main */
 /* cover */
 .cover {
+  margin-top: 4px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -105,7 +106,7 @@
   text-transform: uppercase;
   color: #fff;
   font-size: 22px;
-  word-spacing: 19px;
+  word-spacing: 18px;
 }
 
 .cover-button {
@@ -251,7 +252,7 @@
   height: 180px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 50px;
+  margin: 0px 50px;
 }
 
 .footer__address {
@@ -269,12 +270,6 @@
 
 .footer__menu-link {
   font-size: 18px;
-  color: #666;
-}
-
-.social-footer__logo {
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .social-footer__logo {
@@ -284,7 +279,6 @@
 
 .social-footer {
   display: flex;
-  justify-content: space-between;
-  width: 240px;
+  gap: 48px;
   margin-left: auto;
 }
