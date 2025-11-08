@@ -41,6 +41,7 @@
   font-size: 18px;
   line-height: 24px;
   text-underline-offset: 4px;
+  font-style: normal
 }
 
 /* main */
@@ -252,7 +253,7 @@
   height: 180px;
   display: grid;
   grid-template-columns: auto 1fr auto;
-  margin: 0px 50px;
+  margin: 180px 50px;
   align-items: flex-start;
 }
 
