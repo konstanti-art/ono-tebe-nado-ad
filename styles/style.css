@@ -1,19 +1,21 @@
 /* место для вашего кода */
 /* header */
+
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 289px;
-  padding: 0px 50px;
+  height: 293px;
+  padding: 92px 50px 96px 50px;
 }
 
 .header__menu-list {
   display: flex;
-  gap: 24px ;
+  gap: 32px;
   align-items: center;
   list-style: circle;
   font-size: 18px;
+  text-underline-offset: 4px;
 }
 
 .header__menu-item_no-bullet {
@@ -38,6 +40,7 @@
   flex-direction: column;
   font-size: 18px;
   line-height: 24px;
+  text-underline-offset: 4px;
 }
 
 /* main */
@@ -45,15 +48,12 @@
 .cover {
   margin-top: 4px;
   position: relative;
-  display: flex;
-  flex-direction: column;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   height: 757px;
-  width: 100%;
   background-size: cover;
   background-position: center;
-  z-index: -2;
+  z-index: 0;
 }
 
 .overlay::before {
@@ -71,14 +71,16 @@
 
 .cover__title {
   display: flex;
+  position: relative;
   flex-direction: column;
   gap: 20px;
   font-size: 100px;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
+  padding: 165px 20px 106px 50px;
   letter-spacing: 30px;
-  padding: 155px 20px 0px 50px;
+  line-height: 115px;
 }
 
 .accent-span {
@@ -95,17 +97,18 @@
 
 .description {
   display: flex;
-  justify-content: space-between;
+  gap: 107px;
+  margin: 0 50px 50px;
   align-items: center;
   height: 51px;
   width: 1000px;
-  margin: 106px 50px 50px;
 }
 
 .description-text {
   text-transform: uppercase;
   color: #fff;
   font-size: 22px;
+  line-height: 28px;
   word-spacing: 18px;
 }
 
@@ -124,17 +127,16 @@
 }
 /* lots */
 .lots {
-  margin: 180px 24px 120px;
+  margin: 180px 24px 0;
   min-height: 723px;
-
 }
 
 .lots__subtitle {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  padding-left: 40px;
-  padding-bottom: 27px;
+  margin-left: 40px;
+  margin-bottom: 27px;
 }
 
 .lots__card-item {
@@ -144,6 +146,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .lots__cards {
@@ -151,33 +158,19 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .lots__card-film {
-  position: relative;
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -2;
 }
 
 .lots__card-book {
-  position: relative;
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -2;
 }
 
 .lots__card-picture {
-  position: relative;
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -2;
 }
 
 .lots__card-head {
@@ -185,22 +178,26 @@
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+  text-underline-offset: 3px;
+  line-height: 120%;
 }
 
 .lots__card-information {
   font-size: 20px;
   color: #fff;
+  line-height: 120%;
 }
 
 .lots__more-information {
   margin-left: 40px;
   font-size: 20px;
+  text-underline-offset: 3px;
 }
 
 
 /* about */
 .about {
-  margin: 0px 24px 180px;
+  margin: 120px 24px;
 }
 
 .about__logo-round {
@@ -246,30 +243,36 @@
   
 }
 
+.text-for-more-information-1 {
+  padding-right: 5px;
+}
 /* footer */
 
 .footer {
   height: 180px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto 1fr auto;
   margin: 0px 50px;
+  align-items: flex-start;
 }
 
 .footer__address {
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
+  font-style: normal;
 }
 
 .footer__menu {
-  display: flex;
-  flex-direction: column;
   text-align: center;
+  margin: 0;
 }
 
 .footer__menu-link {
   font-size: 18px;
+  text-underline-offset: 4px;
 }
 
 .social-footer__logo {
